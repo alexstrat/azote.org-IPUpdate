@@ -1,0 +1,16 @@
+{
+  "author": "Alexandre Lacheze (alexstrat)",
+  "name": "azote.org-IPUpdate",
+  "description": "Node.js script to udpate IP of hosts registered at Azote.org",
+  "version": "0.0.1",
+  "homepage": "http://github.com/alexstrat/azote.org-IPUpdate",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/alexstrat/azote.org-IPUpdate.git"
+  },
+  "engines": {
+    "node": "~v0.4.12"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
