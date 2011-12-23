@@ -11,6 +11,9 @@
   "engines": {
     "node": "~v0.4.12"
   },
-  "dependencies": {},
+  "dependencies": {
+    "ifconfig.me" : "https://github.com/alexstrat/ifconfig.me-node/tarball/master",
+    "zombie" : "~0.12.8"
+  },
   "devDependencies": {}
 }
