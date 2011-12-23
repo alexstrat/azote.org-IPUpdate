@@ -14,7 +14,13 @@ var update = function() {
         return el.join(';');
       }).join('\n');
 
-      fs.writeFileSync('azoteUP.log.csv', fs.readFileSync('azoteUP.log.csv')+'\n'+res);
+      var before = "";
+      try {
+        before =  fs.readFileSync('azoteUP.log.csv');
+      } catch(e) {
+        console.log('init '+'azoteUP.log.csv');
+      }
+      fs.writeFileSync('azoteUP.log.csv',before+'\n'+res);
       console.log(res);
     }
   );
